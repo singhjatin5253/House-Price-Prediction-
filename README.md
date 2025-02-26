@@ -41,10 +41,16 @@ Model Performance Comparison
 | KNN (k=11) | 215,942 | 175,190 | ❌ |
 | Decision Tree | 203,721 | 165,277 | ❌ (Overfitting) |
 | Support Vector Regression (SVR) | 206,546 | 161,300 | ✅ |
-| Neural Network | 203,901 | 165,313 | ❌ |
+|Neural Network | 203,901 | 165,313 | ❌ |
 
-📌 Key Insight: 
+
+Key Insight: 
 The SVR model performed best, balancing accuracy and generalization.  
+
+Future Improvements
+Optimize hyperparameters for SVR
+Experiment with Random Forest & XGBoost
+Improve feature engineering
 
 🛠 Installation & Usage  
  🔹 Clone the Repository  
